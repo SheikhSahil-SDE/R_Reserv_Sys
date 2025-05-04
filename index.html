@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Railway Reservation System</h1>
+        <img src="irctc_pic.jpg" alt="Train" style="width: 30%; height: 300px; margin-top: 20px;">
+        <h3>Welcome to the Railway Reservation System</h3>
+        <p>Book your tickets easily and quickly!</p>
+        <div id="live-timer" style="font-size: 1.2rem; margin-top: 10px;"></div>
+    </header>
+    <main>
+        <section id="reservation-form">
+            <h2>Book Your Ticket</h2>
+            <form>
+                <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+                
+                <label for="train">Train:</label>
+                <select id="train" name="train">
+                    <option value="train1">Train 1</option>
+                    <option value="train2">Train 2</option>
+                    <option value="train3">Train 3</option>
+                    <option value="train4">Train 4</option> 
+                    <option value="train5">Train 5</option>
+                    <option value="train6">Train 6</option>
+                </select>
+
+                <label for="from-station">From Station:</label>
+                <select id="from-station" name="from-station">
+                    <option value="station1">Station 1</option>
+                    <option value="station2">Station 2</option>
+                    <option value="station3">Station 3</option>
+                    <option value="station4">Station 4</option>
+                </select>
+
+                <label for="to-station">To Station:</label>
+                <select id="to-station" name="to-station">
+                    <option value="station1">Station 1</option>
+                    <option value="station2">Station 2</option>
+                    <option value="station3">Station 3</option>
+                    <option value="station4">Station 4</option>
+                </select>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="seats">Number of Seats:</label>
+                <input type="number" id="seats" name="seats" min="1" required>
+
+                <button type="submit">Reserve</button>
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
