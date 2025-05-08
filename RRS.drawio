@@ -448,15 +448,6 @@
         <mxCell id="5muhOvvMZU_66XmUO7Fb-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="5muhOvvMZU_66XmUO7Fb-1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5muhOvvMZU_66XmUO7Fb-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="1580" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="5muhOvvMZU_66XmUO7Fb-6" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="698" y="1120" width="152.5" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="5muhOvvMZU_66XmUO7Fb-7" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="729.25" y="1120" width="90" height="90" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
